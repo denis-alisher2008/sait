@@ -1,0 +1,61 @@
+/* тэлевонаааа (до 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .item {
+        flex: 1 1 100%;
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 20px;
+    }
+    .t0 {
+        display: flex;
+        width:500px;
+        justify-content: flex-end;
+    }
+    .t1 {
+        width:500px;
+    }
+    .t2 {
+        width:800px;
+    }
+    .t3 {
+        width:800px;
+    }
+    .t4 {
+        width:800px;
+    }
+    .t5 {
+        width:800px;
+    }
+    .t6 {
+        width:800px;
+    }
+    .tytal {
+        margin-left:555px;
+    }
+}
+
+
+/* для пк (больше 1024px) */
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+
+    .item {
+        flex: 1 1 30%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
